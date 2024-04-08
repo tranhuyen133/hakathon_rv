@@ -1,0 +1,90 @@
+body{
+    background-color:rgb(9, 7, 51);
+    color:rgba(255, 192, 203, 0.752);
+    
+}
+.word{
+    display:flex;
+    justify-content: center;
+}
+.mini-box{
+    width:1100px;
+    height:700px;
+    background-color: white;
+    display:flex;
+    margin:auto;
+    margin-bottom:10px;    
+}
+.cauhoi {
+ color:black;
+ position:relative;
+ left:580px;
+ bottom:470px;
+}
+.btn{
+    border-radius: 50px;
+    border:1px;
+    width:50px;
+    height:50px;
+    position:relative;
+    bottom:450px;
+    left:500px;
+    cursor: pointer;
+
+}
+.btn.clicked{
+    background-color: rgb(255, 127, 229);
+}
+input{
+    width:600px;
+    height:40px;
+    position:relative;
+    left:470px;
+    bottom:400px;
+}
+.send button{
+   background-color: rgba(245, 245, 220, 0.188);
+}
+
+#feedback-container {
+    margin-top: 20px;
+}
+.feedback {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    bottom:100px;
+}
+.feedback .content {
+    margin-bottom: 5px;
+}
+.feedback .actions {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.gui{
+    position:relative;
+     bottom:400px;
+     left:400px;
+}
+.edit{
+    position:relative;
+    bottom:300px;
+    left:1100px;
+    color:black;
+
+}
+.delete{
+    position:relative;
+    bottom:300px;
+    left:1120px;
+    color:black;
+}
+.content{
+    position:relative;
+    bottom:280px;
+    left:200px;
+    color:black;
+}
